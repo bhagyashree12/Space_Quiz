@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is the name of event that formed universe?"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:textColor="#283593"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:src="@drawable/bigbang"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="9dp"/>
+    <Button
+        android:id="@+id/thibtn1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Figgy pop"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/thibtn2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Loud Explosion"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/thibtn3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Big Burst"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/thibtn4"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Big Bang"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"/>
+</LinearLayout>

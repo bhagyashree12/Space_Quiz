@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:gravity="center"
+        android:text="What galaxy Do we live?"
+        android:textSize="36dp"
+        android:textColor="#FFFFFF"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/secbtn1"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Andromeda"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"
+        />
+    <Button
+        android:id="@+id/secbtn2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Black Eye Galaxy"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/secbtn3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Milky Way"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/secbtn4"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Pinwheel Galaxy"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"/>
+
+</LinearLayout>
